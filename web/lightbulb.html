@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function changeImage() {
+    var image = document.getElementById('myImage');
+    if (image.src.match("reverse")) {
+        image.src = "octocat.png";
+    } else {
+        image.src = "octocat_reverse.png";
+    }
+}
+</script>
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+<img id="myImage" onclick="changeImage()" src="octocat.png">
+
+<p>Click the octocat to turn it upside down</p>
+
+</body>
+</html>

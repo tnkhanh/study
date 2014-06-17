@@ -1,0 +1,11 @@
+- Variables:
+  + String: "Name", "abc"...
+  + Number: 4, 7, 10234 ...
+  + Boolean: true (1<2 ...) , false (2>4 ...).
+  
+  var myName = "Khanh";
+  
+- Colors: array of 3 integers, like this:
+  var red = [0, 100, 63];
+
+-

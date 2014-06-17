@@ -1,0 +1,15 @@
+Object-oriented: encapsulation, inheritance and polymorphism
+(C++: -> can be extended through derivation)
+
+A derived class inherits every members except:
++ Constructor and destructor
++ Operator =
++ Friends
+
+By default, calling base class' default constructor/destructor
+
+virtual function: help old code calls new code.
+1 reason C++ is OO is virtual function
+
+Evil things: pointers, arrays, macros (#define). But you use it when it's least evil among alternatives.
+Basically, new C programmers use these more than they should.
